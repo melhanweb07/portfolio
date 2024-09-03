@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.one h1{
+    padding: 20px;
+}
+.one h2{
+    padding: 20px;
+}
+.one{
+    background-image: url(backk.jpg);
+    background-size: 100%;
+}
+ul li{
+    padding: 5px;
+}
+.two{
+    padding: 50px;
+}
+.container{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container img{
+    width: 10%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.684)
+    
+    
+}
+.container img:hover{
+    width: 25%;
+}
+nav{
+    background-color: black;
+    padding: 1rem;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: #575757;
+    border-radius: 0cap5px;
+}
+
+    
